@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
-  background-color: rgb(4, 17, 29);
+  background-color: #04111d;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-}
+  color: #fdf2f2; }
+
+/*# sourceMappingURL=app.css.map */
