@@ -1,0 +1,12 @@
+@import "config";
+
+#result {
+  background-color: $display-bg;
+  height: 100px;
+  color: $display-color;
+  text-align: right;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

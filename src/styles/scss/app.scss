@@ -1,13 +1,7 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import 'config';
 
-body {
-  background-color: rgb(4, 17, 29);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(253, 242, 242);
+.app {
+  display:flex;
+  flex-direction: column;
+  width: 700px
 }

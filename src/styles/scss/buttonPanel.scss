@@ -1,0 +1,9 @@
+@import 'config';
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 700px;
+}
