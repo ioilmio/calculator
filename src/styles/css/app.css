@@ -1,18 +1,19 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
-  background-color: #04111d;
+  background-color: #02162b;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; }
+  color: white;
+}
 
 .app {
   display: flex;
   flex-direction: column;
-  width: 700px; }
-
-/*# sourceMappingURL=app.css.map */
+  width: 700px;
+}
