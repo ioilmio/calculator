@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   background-color: #02162b;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; }
+  color: white;
+}
 
 button {
   width: 25%;
@@ -16,12 +18,13 @@ button {
   font-weight: bold;
   background-color: #e9e9e9;
   cursor: pointer;
-  height: 100%; }
+  height: 100%;
+}
 
 .orange {
-  background-color: #f6941f; }
+  background-color: #f6941f;
+}
 
 .wide {
-  width: 50%; }
-
-/*# sourceMappingURL=button.css.map */
+  width: 50%;
+}
