@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #02162b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#result {
+  background-color: #a5a5a5;
+  height: 100px;
+  color: white;
+  text-align: right;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold';
+}

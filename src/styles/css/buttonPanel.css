@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #02162b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 700px;
+}

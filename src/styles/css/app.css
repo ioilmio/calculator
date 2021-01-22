@@ -5,9 +5,15 @@
 }
 
 body {
-  background-color: rgb(4, 17, 29);
+  background-color: #02162b;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
 }

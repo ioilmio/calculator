@@ -1,38 +1,29 @@
 import React from 'react';
 import Button from './Button';
+import '../styles/css/buttonPanel.css';
 
-const ButtonPanel = () => (
-  <div>
-    <div>
-      <Button value="AC" />
-      <Button value="+/-" />
-      <Button value="%" />
-      <Button value="÷" />
+const ButtonPanel = () => {
+  const group1 = ['AC', '+/-', '%', '÷'];
+  const group2 = ['7', '8', '9', 'x'];
+  const group3 = ['4', '5', '6', '-'];
+  const group4 = ['1', '2', '3', '+'];
+  const group5 = ['0', '.', '='];
+  const groups = [group1, group2, group3, group4, group5];
+  return (
+    <div id="button-panel">
+      {groups.map(group => (
+        <div className="row" key={group}>
+          {group.map(btn => (
+            <Button
+              key={btn}
+              value={`${btn}`}
+              color={['+', '-', 'x', '÷', '='].includes(btn) ? 'orange' : ''}
+              wide={btn === '0'}
+            />
+          ))}
+        </div>
+      ))}
     </div>
-    <div>
-      <Button value="7" />
-      <Button value="8" />
-      <Button value="9" />
-      <Button value="X" />
-    </div>
-    <div>
-      <Button value="4" />
-      <Button value="5" />
-      <Button value="6" />
-      <Button value="-" />
-    </div>
-    <div>
-      <Button value="1" />
-      <Button value="2" />
-      <Button value="3" />
-      <Button value="+" />
-    </div>
-    <div>
-      <Button value="0" />
-      <Button value="." />
-      <Button value="=" />
-    </div>
-  </div>
-);
-
+  );
+};
 export default ButtonPanel;
