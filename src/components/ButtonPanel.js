@@ -13,12 +13,12 @@ const ButtonPanel = () => {
     <div id="button-panel">
       {groups.map(group => (
         <div className="row" key={group}>
-          {group.map(char => (
+          {group.map(btn => (
             <Button
-              key={char}
-              value={`${char}`}
-              color={['+', '-', 'x', '÷', '='].includes(char) ? 'orange' : ''}
-              wide={char === '0'}
+              key={btn}
+              value={`${btn}`}
+              color={['+', '-', 'x', '÷', '='].includes(btn) ? 'orange' : ''}
+              wide={btn === '0'}
             />
           ))}
         </div>
