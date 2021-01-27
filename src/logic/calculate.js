@@ -10,7 +10,6 @@ const calculate = (data, buttonName) => {
       break;
     case '+/-':
       total *= -1;
-      next *= -1;
       break;
     case '1':
     case '2':
@@ -21,6 +20,7 @@ const calculate = (data, buttonName) => {
     case '7':
     case '8':
     case '9':
+    case '0':
     case '.':
       if (operation === '' || !operation) { total = `${total}${buttonName}`; } else next = `${next}${buttonName}`;
       break;

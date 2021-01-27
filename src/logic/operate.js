@@ -21,6 +21,9 @@ const operate = (numberOne, numberTwo, operation) => {
     case '+':
       result = Big(numberOne).plus(Big(numberTwo));
       break;
+    case '+/-':
+      result = Big(numberOne).times(-1);
+      break;
     default:
       return 0;
   }
