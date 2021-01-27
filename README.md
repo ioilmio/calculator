@@ -47,7 +47,7 @@ This project was built using these technologies.
 
 ## Live version
 
-[Click here](https://calculator-react-2021.herokuapp.com/)
+[Click here!](https://calculator-react-2021.herokuapp.com/)
 
 ### Usage
 
