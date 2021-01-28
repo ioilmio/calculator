@@ -53,19 +53,18 @@ This project was built using these technologies.
 
 Type in your temrinal:
 
-- to clone `git clone https://github.com/ioilmio/calculator/tree/feature`
+- to clone `git clone https://github.com/ioilmio/calculator`
 - to install dependencies `npm install`
-- to build the project suing webpack `npm run build`
 - to run the dev server `npm start`
+- to build the project use `npm run build`
 
-## Make you operation as usual
+
+## Make your operation as usual
 
 
-1. open a browser and go to `localhost:8080`
-2. type a city in the input field and click search to get weather info;
-3. Click on the degrees to change Celsius to Fahreneit and viceversa;
-4. Enjoy weather info;
-
+1. run a dev server using `npm start`
+2. click on numbers and operations;
+3. See the result;
 
 
 ## Author
