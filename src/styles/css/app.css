@@ -13,7 +13,7 @@ body {
 .nav-container {
   display: flex;
   flex: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center; }
   .nav-container .nav-title {
     font-size: 2rem;
@@ -28,7 +28,6 @@ body {
 
 .app {
   display: flex;
-  flex-direction: column;
-  width: 700px; }
+  flex-direction: column; }
 
 /*# sourceMappingURL=app.css.map */

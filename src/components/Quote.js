@@ -4,6 +4,7 @@ import '../styles/css/quote.css';
 
 const Quote = () => {
   const [quote, setQuote] = useState();
+  const [author, setAuthor] = useState();
   const [loading, setLoading] = useState(false);
 
   const fetchQuote = async () => {
@@ -13,6 +14,7 @@ const Quote = () => {
       const response = await data.json();
       const rand = Math.floor(Math.random() * 100);
       setQuote(response[rand].text);
+      setAuthor(response[rand].author);
       setLoading(false);
     } catch (err) {
       setQuote(err);
@@ -28,7 +30,11 @@ const Quote = () => {
       <div className="quote">
         <p>
           {loading ? 'Loading...' : quote}
+          <br />
+          -
+          {author}
         </p>
+
       </div>
     </main>
   );

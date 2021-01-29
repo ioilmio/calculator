@@ -13,7 +13,7 @@ body {
 .nav-container {
   display: flex;
   flex: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center; }
   .nav-container .nav-title {
     font-size: 2rem;
