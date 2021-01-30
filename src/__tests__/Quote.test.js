@@ -13,7 +13,7 @@ describe('Quote', () => {
 
   it('creates a Quote component', () => {
     render(<BrowserRouter><Quote /></BrowserRouter>);
-    const element = screen.getByText('Loading...');
+    const element = screen.getByText('Math Magicians');
     expect(element).toBeInTheDocument();
   });
 });

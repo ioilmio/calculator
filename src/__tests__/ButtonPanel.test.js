@@ -8,7 +8,7 @@ const handleClick = () => ({ total: '0', next: '0', operation: '' });
 
 describe('Button Panel', () => {
   it('renders correctly', () => {
-    const tree = renderer.create(<ButtonPanel onClick={handleClick} />).toJSON();
+    const tree = renderer.create(<ButtonPanel handleClick={handleClick} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
