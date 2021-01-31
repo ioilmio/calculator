@@ -13,7 +13,7 @@ describe('Button Panel', () => {
   });
 
   it('creates a Button Panel component', () => {
-    render(<ButtonPanel onClick={handleClick} />);
+    render(<ButtonPanel handleClick={handleClick} />);
     const element = screen.getByText('0');
     expect(element).toBeInTheDocument();
   });
