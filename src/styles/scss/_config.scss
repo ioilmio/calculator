@@ -17,18 +17,29 @@ body {
 
 .nav-container {
   display: flex;
-  flex: column;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 
   .nav-title {
     font-size: 2rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Open Sans",
+      "Helvetica Neue",
+      sans-serif;
   }
+
   .nav-links {
     display: flex;
-    flex: column;
+    flex-direction: column;
+
     a {
       text-decoration: none;
       margin-right: 1rem;
