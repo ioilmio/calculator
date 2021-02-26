@@ -7,14 +7,6 @@ describe('Calculate', () => {
     operation: '',
   };
 
-  const reset = () => {
-    calc = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-  };
-
   test('Successfully add numbers to total', () => {
     calc = calculate(calc, '1');
     expect(calc.total).toBe('1');
